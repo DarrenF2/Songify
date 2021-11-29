@@ -23,6 +23,7 @@
 		40F5001B2752AF4C00B8980F /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5001A2752AF4C00B8980F /* TrackListViewController.swift */; };
 		40F5001D2752EEC200B8980F /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5001C2752EEC200B8980F /* TrackCell.swift */; };
 		92A49463B7AF07A7EF7ECB66 /* Pods_Songify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFA14CDF09DA669A1925182 /* Pods_Songify.framework */; };
+		9599AD2D2754E85700D86971 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599AD2C2754E85700D86971 /* SigninViewController.swift */; };
 		B1CD497DD0DAE5C7EE5CE550 /* Pods_Songify_SongifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA6AB2A0ADE712B4345FE71 /* Pods_Songify_SongifyUITests.framework */; };
 		D68A1F5D2122FB298B37B127 /* Pods_SongifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04DB9B00082C36519C9B845 /* Pods_SongifyTests.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		40F5001C2752EEC200B8980F /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackCell.swift; path = SongifyApp/TrackCell.swift; sourceTree = "<group>"; };
 		5BA6AB2A0ADE712B4345FE71 /* Pods_Songify_SongifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Songify_SongifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6414C544E50C9A73275627DE /* Pods-Songify-SongifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Songify-SongifyUITests.release.xcconfig"; path = "Target Support Files/Pods-Songify-SongifyUITests/Pods-Songify-SongifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9599AD2C2754E85700D86971 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		9EFA14CDF09DA669A1925182 /* Pods_Songify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Songify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04DB9B00082C36519C9B845 /* Pods_SongifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SongifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF200DF04477EC00BF5C940 /* Pods-SongifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongifyTests.release.xcconfig"; path = "Target Support Files/Pods-SongifyTests/Pods-SongifyTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				404AB52C2739F64F005544F8 /* AppDelegate.swift */,
 				404AB52E2739F64F005544F8 /* SceneDelegate.swift */,
 				404AB5322739F64F005544F8 /* Main.storyboard */,
+				9599AD2C2754E85700D86971 /* SigninViewController.swift */,
 				404AB5352739F650005544F8 /* Assets.xcassets */,
 				404AB5372739F650005544F8 /* LaunchScreen.storyboard */,
 				404AB53A2739F650005544F8 /* Info.plist */,
@@ -430,6 +433,7 @@
 				40E7B73227405DCF00183394 /* ArtistImageViewController.swift in Sources */,
 				40E7B73027405D4C00183394 /* UIImageView.swift in Sources */,
 				40ADEA0F27407FC900591F06 /* SpotifyAPICaller.swift in Sources */,
+				9599AD2D2754E85700D86971 /* SigninViewController.swift in Sources */,
 				409F046127480D3100ADDD55 /* AlbumViewCell.swift in Sources */,
 				404AB52D2739F64F005544F8 /* AppDelegate.swift in Sources */,
 				404AB52F2739F64F005544F8 /* SceneDelegate.swift in Sources */,
@@ -614,7 +618,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2456CV5WQF;
+				DEVELOPMENT_TEAM = 3W2WU7UBPQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SongifyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -644,7 +648,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2456CV5WQF;
+				DEVELOPMENT_TEAM = 3W2WU7UBPQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SongifyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

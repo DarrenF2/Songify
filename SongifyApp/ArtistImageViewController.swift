@@ -12,6 +12,11 @@ import Combine
 
 class ArtistImageViewController: UIViewController {
     
+    
+    
+
+    
+    
     @IBOutlet var collection: [UIImageView]!
     
     var artists: [[String]] = [
@@ -62,6 +67,11 @@ class ArtistImageViewController: UIViewController {
         }
     }
     
+    @IBAction func SigninButton(_ sender: Any) {
+        performSegue(withIdentifier: "Signin", sender: self)
+    }
+    
+    
     @objc func onImageTap(_ sender: UITapGestureRecognizer) {
         // Perform on tap functionality here
         let artistImage = sender.view as! UIImageView
@@ -86,7 +96,10 @@ class ArtistImageViewController: UIViewController {
         let destinationNavigationController = segue.destination as! UINavigationController
         let albumGridViewController = destinationNavigationController.topViewController as! AlbumGridViewController
         
+        
         albumGridViewController.artistURI = artistURI ?? "no URI"
+        
+        
     }
 
 }
